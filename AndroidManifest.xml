@@ -3,7 +3,7 @@
     package="com.example.client"
     android:versionCode="1"
     android:versionName="1.0" >
- <!-- From the Repo-1 -->
+ <!-- Manifest Changed for the 2nd time -->
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="19" />
