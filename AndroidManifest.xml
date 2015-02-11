@@ -3,7 +3,7 @@
     package="com.example.client"
     android:versionCode="1"
     android:versionName="1.0" >
- <!-- Manifest Changed for the 2nd time -->
+ <!-- Manifest Changed from Local Computer -->
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="19" />
