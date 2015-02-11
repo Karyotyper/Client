@@ -3,7 +3,7 @@
     package="com.example.client"
     android:versionCode="1"
     android:versionName="1.0" >
- <!-- Manifest Changed from Local Computer -->
+ <!-- I am now Learning Branching and it's just freaking me out. -->
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="19" />
