@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/waiter_panel_title"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            
+            android:textSize="36sp"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            
+            android:text="Waiter Panel"/>
+
+        <!--Reusable fragment container for listview of order_item.xml -->
+        <ListView
+            android:id="@+id/fragment_order_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/waiter_panel_title"
+            android:layout_above="@+id/new_order_button" />
+        <Button
+            android:id="@+id/new_order_button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:background="@color/color_new_order_button"
+            android:textSize="22sp"
+            android:textColor="@color/color_white"
+            android:text="New order" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+
+

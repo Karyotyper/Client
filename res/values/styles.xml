@@ -1,0 +1,28 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <color name="color_white">#ffffff</color>
+    <color name="color_food_price">#007236</color>
+    <color name="color_new_order_button">#5bbc64</color>
+    <color name="color_order_icon_background">#ffdb00</color>
+
+    <color name="color_waiter_panel_title_background">#708e57</color>
+    <color name="color_customer_panel_title_background">#7b5d46</color>
+
+</resources>
